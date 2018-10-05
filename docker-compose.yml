@@ -4,5 +4,7 @@ services:
   modernize.web:
     image: modernizeweb:${TAG}
     build:
+      args:
+        source: bin\
       context: .\Modernize.Web
       dockerfile: Dockerfile
