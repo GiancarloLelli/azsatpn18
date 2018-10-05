@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   modernize.web:
-    image: modernizeweb
+    image: modernizeweb:${TAG}
     build:
       context: .\Modernize.Web
       dockerfile: Dockerfile
