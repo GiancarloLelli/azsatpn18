@@ -5,6 +5,6 @@ services:
     image: modernizeweb:${TAG}
     build:
       args:
-        source: docker\deploy
+        source: obj\Docker\publish
       context: .\Modernize.Web
       dockerfile: Dockerfile
